@@ -12,7 +12,7 @@ function getUserInputs(string $message){
 
 function showMenu() {
     echo "\n📋 Task manager\n";
-    echo "\n[1] Add task \n[2] Task List \n[3] Mark as completed \n[4] Completed Tasks \n[5] Clear Screen \n[0] Exit\n";
+    echo "\n[1] Add task \n[2] Task List \n[3] Mark as completed \n[4] Completed Tasks \n[0] Exit\n";
     $selectedOption = getUserInputs("\nChoose one option: ");
     return $selectedOption;
 }
